@@ -39,7 +39,9 @@ class MainPage extends Component {
         return (
             <Grid container className={classes.root} justify="center">
                 <Grid item xs={1}>
-                    <Paper></Paper>
+                </Grid>
+                <Grid item x={11}>
+                    <Button className={classes.root}/>
                 </Grid>
             </Grid>
         );
